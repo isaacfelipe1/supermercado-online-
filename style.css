@@ -28,7 +28,8 @@ h2{
 table{
     display: flex;
     flex-direction: column;
-    width: 30px;
+    width: 100%;
+    background-color: #FF9900;
 }
 img{
     width: 100px;
