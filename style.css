@@ -82,6 +82,8 @@ footer{
     margin-top:10px;
     width:100px;
     padding: 10px;
+    border:solid #fff;
+    border-radius: 20px;
 }
 #sobre{
     text-align: center;
@@ -101,6 +103,9 @@ footer{
     width:65%;
     padding:10px;
     border-style: var(--vermelho);
+    border-radius: 10px;
+    align-items: center;
+    text-align: center;
 }
 nav ul li{
     list-style: none;
@@ -115,4 +120,8 @@ nav ul{
     color: #000;
     width: 100%;
 
+}
+#logo{
+    width:70%;
+    height: 30%;
 }
