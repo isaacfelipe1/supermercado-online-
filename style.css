@@ -1,0 +1,28 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+:root{
+    --cor_do_body:#F9F9F9;
+    --vermelho:#CB1816;
+    --cores-da-compra:#069F31;
+    --footer-cor:#FF9900;
+}
+body{
+    background-color: var(--cor_do_body);
+}
+header{
+    display: flex;
+    flex-direction: column;
+    padding:20px;
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    background-color: #CB1816;
+   
+}
+h2{
+    color: #000;
+    text-align: center;
+    align-items: center;
+}
