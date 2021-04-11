@@ -9,7 +9,7 @@
     --footer-cor:#FF9900;
 }
 body{
-    background-color: #000;
+   background-color: var(--cor_do_body);
     
 }
 header{
@@ -42,7 +42,6 @@ img{
     
 }
 div{
-    background-color:green;
     padding: 20px;
     width: 100%;
     
