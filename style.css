@@ -38,13 +38,11 @@ table{
 }
 img{
   width:100%;
-   
-    
 }
 div{
      display: flex;
      flex-direction: column;
-    padding: 20px;
+    padding: 10px;
     width: 100%;
     margin: 0;
     background-color: #000;
