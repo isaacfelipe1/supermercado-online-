@@ -120,6 +120,14 @@ nav ul{
     align-items: left;
  
 }
+nav{
+    display: inline;
+    color: #f4f4f4;
+    text-decoration: none;
+    width: 100%;
+    height: auto;
+    padding: 20px;
+}
 #none{
     background-color: #fff;
     color: #000;
