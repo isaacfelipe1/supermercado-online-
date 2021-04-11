@@ -9,7 +9,8 @@
     --footer-cor:#FF9900;
 }
 body{
-    background-color: var(--cor_do_body);
+    background-color: #000;
+    
 }
 header{
     display: flex;
@@ -26,11 +27,11 @@ h2{
     align-items: center;
 }
 table{
-    display:flex;
-    flex-direction: column;
     text-align: center;
     align-items: center;
     background-color: #FF9900;
+    
+   
 }
 img{
     width:100px;
@@ -41,5 +42,14 @@ img{
 th,tr,td{
     text-align: center;
     align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+div{
+    background-color:green;
+    padding: 20px;
+    width: 100%;
+    
+
 }
 
