@@ -15,7 +15,6 @@ header{
     display: flex;
     flex-direction: column;
     padding:20px;
-    width: 100%;
     text-align: center;
     align-items: center;
     background-color: #CB1816;
@@ -29,4 +28,8 @@ h2{
 table{
     display: flex;
     flex-direction: column;
+    width: 50px;
+}
+img{
+    width: 100px;
 }
