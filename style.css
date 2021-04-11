@@ -30,6 +30,8 @@ table{
     flex-direction: column;
     width: 100%;
     background-color: #FF9900;
+    align-items: center;
+    text-align: center;
 }
 img{
     width: 100px;
