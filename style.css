@@ -26,23 +26,21 @@ h2{
     align-items: center;
 }
 table{
-    display: flex;
+    display:flex;
     flex-direction: column;
-    width: 100%;
-    background-color: #FF9900;
-    align-items: center;
     text-align: center;
-     margin-left: auto;
-     margin-right: auto;
+    align-items: center;
+    background-color: #FF9900;
+    width: 100%;
 }
 img{
-    width: 100px;
-    align-items: center;
-    text-align: center;
+    width:100px;
+    margin-left: auto;
+    margin-right: auto;
+    
 }
-tr{
-    align-items: center;
+th,tr,td{
     text-align: center;
+    align-items: center;
 }
-
 
