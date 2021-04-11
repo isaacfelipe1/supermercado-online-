@@ -10,13 +10,13 @@
     --footer-cor:#FF9900;
 }
 body{
-   background-color: var(--cor_do_body);
+   background-color:var(--cor_do_body);
     
 }
 header{
     display: flex;
     flex-direction: column;
-    padding:50px;
+    padding:20px;
     text-align: center;
     align-items: center;
     background-color: #CB1816;
@@ -26,26 +26,53 @@ h2{
     color: #000;
     text-align: center;
     align-items: center;
+    font-style: unset;
 }
 table{
+    display: block;
     text-align: center;
     align-items: center;
-    background-color: #FF9900;
     margin-left: auto;
     margin-right: auto;
-    margin: 0%;
-    
-   
 }
 img{
-  width:100%;
+    display: block;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+
 }
 div{
-     display: flex;
-     flex-direction: column;
+    display: flex;
+    flex-direction: column;
     padding: 10px;
     width: 100%;
     margin: 0;
-    
+    color: #f4f4f4;
+}
+footer{
+    display: block;
+    background-color: var(--footer-cor);
+    text-align: center;
+    align-items: center;
+    margin-top: 100%;
+    padding: 20px;
+
+}
+.title{
+    color: var(--cores-da-compra);
+}
+.comprar{
+    background-color: var(--cores-da-compra);
+     color: #f4f4f4;
+     width: 100%;
+     height: 35px;
+     
+}
+#busca{
+    margin-top: 10px;
+    width:100px;
+    height:25px;
+
 }
 
