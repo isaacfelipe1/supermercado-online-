@@ -18,7 +18,7 @@ header{
     text-align: center;
     align-items: center;
     background-color: #CB1816;
-   
+    width: 100%;   
 }
 h2{
     color: #000;
@@ -28,7 +28,7 @@ h2{
 table{
     display: flex;
     flex-direction: column;
-    width: 50px;
+    width: 30px;
 }
 img{
     width: 100px;
