@@ -32,4 +32,11 @@ table{
 }
 img{
     width: 100px;
+    align-items: center;
+    text-align: center;
 }
+tr{
+    align-items: center;
+    text-align: center;
+}
+
