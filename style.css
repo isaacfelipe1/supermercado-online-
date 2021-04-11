@@ -77,9 +77,15 @@ footer{
     padding: 10px;
 }
 #sobre{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    color: #000;
+    background-color: #f4f4f4;
+}
+#sobre p{
+    text-indent: 10px;
+    align-items:inherit;
+    font-size: 15px;
 }
 #pesquisar{
     width:65%;
