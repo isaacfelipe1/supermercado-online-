@@ -28,7 +28,7 @@ h2{
     text-align: center;
     align-items: center;
     font-size: 16pt;
-    background-color: var(--footer-cor);
+    background-color: var(--vermelho);
     width: 150px;
     margin-left: auto;
     margin-right: auto;
@@ -110,4 +110,9 @@ nav ul{
     align-items: left;
  
 }
+#none{
+    background-color: #fff;
+    color: #000;
+    width: 100%;
 
+}
