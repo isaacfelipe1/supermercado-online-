@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 :root{
-    --cor_do_body:#F9F9F9;
+    --cor_do_body:#F5F5F5;
     --vermelho:#CB1816;
     --cores-da-compra:#069F31;
     --footer-cor:#FF9900;
@@ -20,7 +20,19 @@ header{
     text-align: center;
     align-items: center;
     background-color: #CB1816;
-    width: 100%;   
+    width: 100%;  
+    margin-top: 12px;
+   
+}
+
+nav{
+    display: inline;
+    width: 100%;
+     background-color:#FFFFFF;
+}
+nav li{
+    text-decoration: none;
+  
 }
 h2{
     display: block;
@@ -33,15 +45,17 @@ h2{
     margin-left: auto;
     margin-right: auto;
     border-radius: 7px;
+    margin-bottom: 5px;
+   
+
 }
-
-
 table{
     display: block;
     text-align: center;
     align-items: center;
     margin-left: auto;
     margin-right: auto;
+    background-color: #fff;
 }
 img{
     display: block;
@@ -60,13 +74,35 @@ div{
 }
 footer{
     display: block;
-    background-color: var(--footer-cor);
+    background-color:#313131;
     text-align: center;
     align-items: center;
     padding: 20px;
     width: 100%;
     margin-top: 10px;
 
+}
+#home{
+    margin-left: 2px;
+}
+.menu{
+   padding:25px;
+   color: #000;
+   text-align: center;
+   align-items: center;
+   list-style:none;
+   font-size:15px;
+   text-decoration:none ;
+
+}
+.menu:hover{
+    color: var(--vermelho);
+    border-radius: 50px;
+   
+}
+a{
+    text-decoration: none;
+    list-style: none;
 }
 .title{
     color:black;
@@ -143,3 +179,4 @@ nav{
     width:70%;
     height: 30%;
 }
+ 
